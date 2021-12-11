@@ -20,6 +20,30 @@
     background-color: yellow;
     display: flex;
     flex-direction: column;
+    align-self: center;
     align-items: center;
+    text-align: center;
+}
+
+    .about-game ul {
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.8);
+    padding: 10px;
+    list-style: none;
+}
+
+.home-letters-contianer {
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    
+}
+
+.home-letters {
+    height: 100px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: white;
+    flex: 20%;
 }
 
