@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none
+}
+  
+.home-page {
+    width: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-image {
+    height: 400px;
+    background: url("../images/mole-title-page.png") no-repeat center;
+}
+
+.about-game {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
