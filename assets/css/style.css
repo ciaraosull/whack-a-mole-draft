@@ -5,10 +5,10 @@
 }
   
 .home-page {
-    width: 100%;
     background-color: green;
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 .title-image {
@@ -33,7 +33,6 @@
 }
 
 .home-letters-contianer {
-    width: 100%;
     background-color: blue;
     display: flex;
     
