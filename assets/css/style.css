@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: none
+    box-sizing: border-box;
 }
 
 body {
@@ -33,6 +33,7 @@ body {
     align-self: center;
     align-items: center;
     text-align: center;
+    padding: 10px;
 }
 
     .about-game ul {
@@ -46,13 +47,14 @@ body {
     background-color: blue;
     display: flex;
     align-self: center;
-    text-align: center;
+    gap: 20px;
+    margin-top: 10px;
     
 }
 
 .home-letters {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     border: 2px solid black;
     background-color: white;
     display: flex;
